@@ -1,3 +1,8 @@
+# exclude non-anonymized log files
+
+log*.txt
+!log*anon.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
