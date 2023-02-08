@@ -2,4 +2,4 @@ numpy
 matplotlib
 pandas
 matplotlib
-statsmodels
+statsmodels==0.13.2
