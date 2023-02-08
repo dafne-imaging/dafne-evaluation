@@ -52,6 +52,8 @@ for mask_name in mask_dictionary:
 accumulated_contours = np.zeros(sz[:2], dtype=np.int32)
 for val, label in LEG_LABELS.items():
     contour = contour_dictionary[label]
+    # remove overlap
+    contour = np.logical_and(contour, accumulated_contours == 0)
     accumulated_contours += (contour*val)
 
 alpha = np.zeros_like(accumulated_contours, dtype=np.float32)
