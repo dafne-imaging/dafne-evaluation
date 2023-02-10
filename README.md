@@ -1,4 +1,6 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dafne-imaging/dafne-evaluation/HEAD?labpath=dafne_figures.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dafne-imaging/dafne-evaluation/HEAD?labpath=dafne_figures.ipynb) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7629712.svg)](https://doi.org/10.5281/zenodo.7629712) 
+
+
 
 # Evaluation repository for the Dafne project
 
